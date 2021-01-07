@@ -1,3 +1,3 @@
-module github.com/ydzhou/flatdom
+module github.com/ydzhou/Flatdom-go
 
 go 1.15
