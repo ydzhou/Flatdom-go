@@ -1,7 +1,7 @@
 # Flatdom
 
-This is the Go implementation of Flatdom simulator.
+This is a Go implementation of Flatdom simulator.
 
-Flatone is a fictional beings that resides in Flatdom. They have different factions and need to keep growing by expanding to their neighbor land, increase their settlement and fight with other factions.
+Flatdom stands for land of Flatone. Flatone is a fictional being that lives in each tiles of Flatdom. They have different factions and keep developing, by expanding to the neighbor land, increasing the settlement and fight with other factions.
 
-This simulator is to create such land that is filled up with different Flatone factions and to see how they will survive through the wildness and conquer each others.
+The goal of Flatdom is to create such environment that we can observe how Flatone faction will develop to inference civilization progression of intelligent beings.

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Flatdom-go/flatdom"
+	"github.com/ydzhou/flatdom"
 )
 
 func main() {

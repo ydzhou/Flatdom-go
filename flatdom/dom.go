@@ -22,7 +22,7 @@ func (d *Dom) Init() {
 			if seed < initFactionNum {
 				d.land[i][j].holder = rand.Intn(100)%2 + 1
 				d.land[i][j].influence = float64(rand.Intn(10)) + 2
-				fmt.Printf("holder: %d, influence: %f\n", d.land[i][j].holder, d.land[i][j].influence)
+				//fmt.Printf("holder: %d, influence: %f\n", d.land[i][j].holder, d.land[i][j].influence)
 			} else {
 				d.land[i][j].holder = 0
 				d.land[i][j].influence = 0
@@ -79,7 +79,7 @@ func (d *Dom) printout(k int) {
 	fmt.Println("Influence:")
 	for i := range d.land {
 		for j := range d.land[i] {
-			fmt.Printf("%.1f ", d.land[i][j].influence)
+			fmt.Printf("%.0f ", d.land[i][j].influence)
 		}
 		fmt.Println()
 	}
